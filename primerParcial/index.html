@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial programacion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Parcial 1 - División 131</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h2 id="titulo-users">Users</h2>
+        <hr>
+
+        <div class="filtro">
+            <label><input type="radio" id="estado" value="Active">Active</label>
+            <label><input type="radio" id="estado" value="Inactive">Inactive</label>
+            <label><input type="radio" id="estado" value="All">All</label>
+        </div>
+        
+        <div class="acciones">
+            <div class="botones">
+                <button id="btn-create">CREATE</button>
+                <button id="btn-inactive"">DEACTIVE</button>
+                <button id="btn-reset-password">RESET PASSWORD</button>
+            </div>
+            <input type="search" id="buscador" placeholder="Search User">
+        </div>
+        
+        <div id="user-container"></div>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>Abril Gallardo</p>
+    </footer>
+    
+    <script src="index.js"></script>    
+</body>
+</html>
